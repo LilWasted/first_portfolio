@@ -21,6 +21,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+
 }
 
 body *{
@@ -125,6 +127,11 @@ p, ul, form, ol { margin: 1.12em 0; }
 
 #navigation a{
     color: var(--mainText);
+}
+
+
+#navigation a:active{
+
 }
 
 .dots-wrapper{
